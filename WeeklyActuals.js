@@ -501,6 +501,7 @@ function WeeklyActuals() {
         dropdown.addEventListener("onChange", fetchTasks);
         var data = [
             {label:"1 day", value:1},
+            {label:"1 week", value:7},
             {label:"2 weeks", value:14},
             {label:"4 weeks", value:28},
             {label:"6 weeks", value:42}
